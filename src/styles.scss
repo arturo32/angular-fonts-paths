@@ -1,1 +1,34 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: 'Material Icons';
+  src:
+    local('Material Icons'),
+    local('MaterialSymbolsOutlined[FILL,GRAD,opsz,wght]'),
+    url('assets/fonts/MaterialSymbolsOutlined[FILL,GRAD,opsz,wght].woff2') format('woff2');
+  font-weight: 300 400;
+  font-display: swap;
+}
+
+.material-icons {
+  font-family: 'Material Icons', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 24px; /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
